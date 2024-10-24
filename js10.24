@@ -1,0 +1,25 @@
+"use strict";
+
+1
+
+function dalyba(sk1, sk2) {
+
+    if(sk2 === 0){
+        return "dalyba is nulio negalima."
+    }
+    return sk1 / sk2;
+}
+let rezultatas = dalyba(20, 10);
+console.log(rezultatas);
+
+2
+
+function metai(suauges) {
+    return (suauges >= 18) ? "Suauges" : "Nepilnametis";
+}
+let rezultatas = metai(19);
+console.log(rezultatas);
+
+ 3
+let vardas = prompt("Jusu vardas: ");
+alert("Sveikas " + vardas +  " , labanakt " + vardas +".");
